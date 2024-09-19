@@ -5,8 +5,8 @@ import 'package:maps_app/blocs/blocs.dart';
 import 'package:maps_app/delegates/delegates.dart';
 import 'package:maps_app/models/models.dart';
 
-class SearchBar extends StatelessWidget {
-  const SearchBar({Key? key}) : super(key: key);
+class CSearchBar extends StatelessWidget {
+  const CSearchBar({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

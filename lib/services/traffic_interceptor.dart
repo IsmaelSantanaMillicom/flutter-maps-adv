@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 
 class TrafficInterceptor extends Interceptor {
 
-  final accessToken = 'pk.eyJ1Ijoia2xlcml0aCIsImEiOiJja3gzdGVoNmMxdjBpMnVxM251ejcwdXhpIn0.KvaIQqpWzyGy2Nt3C4QUgg';
+  final accessToken = 'pk.eyJ1IjoidGVyaXNjbyIsImEiOiJja2o4cWUzcWcxaTFyMzFueTd6Zmkwb3h3In0.c-0_CDzMCFORmIvgzwf7qAA';
   
   @override
   void onRequest(RequestOptions options, RequestInterceptorHandler handler) {
